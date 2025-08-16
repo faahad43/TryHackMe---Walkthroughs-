@@ -64,13 +64,16 @@ The room cover the developer tools and four main thing in the browser developer 
 -Look on the source code and check for the framework information
 
 ![](./images/q4-1.png)
+
 -The last line comment shows the framework information website is using click on it
 
 ![](./images/q4-2.png)
+
 -Check the information present on different pages
 -The change logs page tells information about the file framework was generating due to bug
 
 ![](./images/q4-3.png)
+
 -move back to acme website and go the /assests that we have already used
 -remove the assests and write /tmp.zip
 -zip file will be downloaded and have the flag of the question.
@@ -84,13 +87,16 @@ The **Inspector** allows us to view all the content that exists on a webpage, ev
 On the ACME news page, the third article was marked as premium and required a subscription. 
 
 ![](./images/i-q1.png)
+
 By inspecting the premium block, I found the `<div>` with the class name `premium-customer-blocker`, which was responsible for hiding the content.
 
 ![](./images/iq-3.png)
+
 There were two ways to reveal the hidden content:
 1. **Remove the class name** from the `<div>`, which removes its styling restrictions.
 
 ![](./images/iq-2.png)
+
 3. **Modify the CSS property**: change the `display` value from `block` to `none`.
 
 ![](./images/iq-4.png)
@@ -125,6 +131,7 @@ Steps taken:
 2. Opened the **Network** tab in Developer Tools.  
 3. Filled out and submitted the form.  
 4. Observed the new network request triggered in the background using **AJAX** (Asynchronous JavaScript and XML).
+
 ![](./images/n-1.png)  
 
 Clicking the new request shows its content and revealed the flag for the final question.
