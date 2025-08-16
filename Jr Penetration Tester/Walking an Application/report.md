@@ -1,6 +1,6 @@
 # Report: Walkthrough the Website 
 
-**Room Link:** [https://tryhackme.com/room/walkinganapplication](https://tryhackme.com/room/walkinganapplication
+**Room Link:** [https://tryhackme.com/room/walkinganapplication](https://tryhackme.com/room/walkinganapplication)
 
 **Pathway:** Jr Penetration Tester
 
@@ -97,7 +97,7 @@ There were two ways to reveal the hidden content:
 
 After applying either method, the hidden premium content was revealed, along with the flag.
 
-![Inspector Flag](./images/iq-5.png)
+![Inspector Flag](./images/i-q5.png)
 
 ---
 
